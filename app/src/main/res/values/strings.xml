@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Hour Hand</string>
+    <string name="boton1">Alumnos</string>
+    <string name="boton2">Actualizar</string>
+    <string name="boton3">Aceptar</string>
+    <string name="boton4">Actualizar</string>
+    <string name="texto">Primero lo primero!</string>
+    <string name="txtresumen">Nada Por Ahora!</string>
+    <string name="title_activity_resumen">Resumen</string>
+    <string name="mi_titulo">Agenda</string>
+    <string name="textView3">Hoy</string>
+    <string name="action_add">Agregar</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="habilitar_sonido">Habilitar Sonido</string>
+    <string name="habilitar_vibracion">Habilitar Vibracion</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="contenido_acercade">Hourhand es un asistente de los estudiantes del Instituto Tecnologico Superior de Felipe Carrillo Puerto, para el control de sus materias, horarios de clases y eventos importantes.</string>
+    <string name="reporte_fallos">Reporte de fallos:</string>
+    <string name="creditos">Desarrollado por estudiantes de la carrera de Ingenieria en Sistemas Computacionales.</string>
+    <string name="correo">ng.castillo@itscarrillopuerto.edu.mx</string>
+    <string name="Hinicio">09:00</string>
+    <string name="Hfin">11:00</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
+    <string name="title_activity_acercade">Acerca de</string>
+    <string name="title_activity_agenda">Agenda</string>
+    <string name="title_activity_addagenda">Agregar a la agenda</string>
+    <string name="title_activity_addHorario">Agregar al horario</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="txt_sin_pendientes">Sin pendientes</string>
+    <string name="Hourhand">Hourhand</string>
+    <string name="Version">Versión 2.0 </string>
+
+
+    <string name="titulo_tab_lunes">LUN</string>
+    <string name="titulo_tab_martes">MAR</string>
+    <string name="titulo_tab_miercoles">MIER</string>
+    <string name="titulo_tab_jueves">JUE</string>
+    <string name="titulo_tab_viernes">VIER</string>
+
+    //textos de "activity_add_agenda
+    <string name="txt_entrada">Hora de entrada:</string>
+    <string name="hora_entrada">00:00</string>
+    <string name="txt_salida">Hora de salida:</string>
+    <string name="hora_salida">00:00</string>
+
+    //textos de "activity_add_agenda
+    <string name="añadir_titulo">Añade un titulo</string>
+    <string name="selecciona_fecha">Selecciona una fecha</string>
+    <string name="selecciona_hora">Selecciona una hora</string>
+    <string name="descripcion">Descripción</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="Reintentar">Reintentar</string>
+    <string name="añadir_agenda">Añadir a la Agenda</string>
+    <string name="agenda">Agenda</string>
+
+    //textos de "activity_add_horario
+    <string name="aceptar_add_horario">Aceptar</string>
+
+    //textos de "activity_add_horario
+    <string name="fecha_hoy">01/01/2018</string>
+    <string name="info_general">No hay actividades pendientes</string>
+
+    //textos de "toolbar_add_horario"
+    <string name="nombre_toolbar_add_horario">Añadir al Horario</string>
+
+
+    //textos de activity_horario_por_dia
+    <string name="txt_dia_semana">Lunes</string>
+    <string name="txt_hora_clase">7:00 a 8:00</string>
+    <string name="txt_nombre_materia">Desarrollo de Aplicaciones</string>
+    <string name="txt_aula">J4</string>
+
+    //textos de "activity_edit_horario
+    <string name="txt_titulo">Editar Horario</string>
+    <string name="txt_actualizar">Actualizar</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Horario</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

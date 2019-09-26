@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itsfcp.isc.edu.Hourhand.EditHorarioActivity">
+
+    <include
+        layout="@layout/toolbar_edit_horario"/>
+
+
+    <Spinner
+        android:id="@+id/sp_edit_semestre"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_edit_grupo"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_edit_materia"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/btn_horario_actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/txt_actualizar"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

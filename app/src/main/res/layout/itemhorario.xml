@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DividerList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_list_item"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="11dp"
+    android:weightSum="20">
+
+
+    <LinearLayout
+        android:layout_width="356dp"
+        android:layout_height="75sp"
+        android:layout_weight="16"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718">
+
+        <LinearLayout
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="6sp"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hora_inicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/InicioFin"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/hora_fin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/InicioFin"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:padding="90sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="8.8"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idmateria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="bottom"
+                android:padding="1dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="10dp"
+                android:background="@color/view" />
+
+            <TextView
+                android:id="@+id/idprofesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="bottom"
+                android:padding="1dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dato"
+                android:layout_width="47dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+                android:paddingLeft="0dp"
+                android:paddingTop="2dp"
+                android:paddingRight="0dp"
+                android:scaleType="fitCenter"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/sb_remove_horario"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:backgroundTint="@color/colorPrimary"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="0dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_trash"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

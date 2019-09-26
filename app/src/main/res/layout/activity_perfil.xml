@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfd"
+    tools:context="itsfcp.isc.edu.Hourhand.PerfilFragment">
+
+
+    <Spinner
+        android:id="@+id/sp_perfil_unidades"
+        android:layout_width="300sp"
+        android:layout_height="44sp"
+        android:textSize="13sp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_perfil_carrera"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_perfil_semestre"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_perfil_grupo"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/boton_guardar"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897"
+        tools:ignore="MissingConstraints" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/perfil2"
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        android:src="@drawable/perfil4"
+        tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+        android:id="@+id/Imagenid"
+        android:layout_width="30dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="Onclick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        app:srcCompat="@drawable/ic_mode_edit"
+        tools:ignore="MissingConstraints,OnClick" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdfdfd"
+    tools:context="itsfcp.isc.edu.Hourhand.AcercadeFragment">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/logohourhand"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_width="341dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="205dp"
+        android:text="@string/creditos"
+        android:textAlignment="gravity"
+        android:textColor="@color/Hourhand"
+        android:textSize="16dp"
+        android:layout_alignParentRight="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:background="@color/Linea" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/correo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="@string/Version" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/Hourhand"
+        android:textColor="@color/reporte_fallos"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/txt_contenido_acercade"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="184dp"
+        android:fontFamily="roboto"
+        android:text="@string/contenido_acercade"
+        android:textColor="@color/contenido_acercade"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/txt_reportefallos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_correo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reporte_fallos"
+        android:textColor="@color/reporte_fallos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp"
+        android:text="@string/correo"
+        android:textColor="@color/correo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

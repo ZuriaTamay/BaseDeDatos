@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="nameapp">#132656</color>
+    <color name="letrasnotificaciones">#f1313133</color>
+    <color name="acerca_de">#f1000000</color>
+    <color name="contenido_acercade">#f1000000</color>
+    <color name="reporte_fallos">#f1000000</color>
+    <color name="correo">#074c83</color>
+    <color name="txt_sin_pendientes">#f66b6b6b</color>
+    <color name="horario">#ffffff</color>
+    <color name="aceptar">#ffffff</color>
+    <color name="info_general">#cfcfcf</color>
+    <color name="entrada_salida">#11326e</color>
+    <color name="materia_dia">#288C7B</color>
+    <color name="aula">#565656</color>
+    <color name="zircon">#DEE1E3</color>
+    <color name="Linea">#d2d0d0</color>
+    <color name="botoninicio">#0e1193</color>
+    <color name="botonspiner">#FF92C12E</color>
+    <color name="Hourhand">#000000</color>
+    <color name="InicioFin">#000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="textoblanco">#ffffff</color>
+    <color name="spiners">#a1d630</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#062ef7</color>
+    <color name="coloracept">#0cea31</color>
+    <color name="colorAccent1">#0e1193</color>
+    <color name="swipe">#ffffff</color>
+    <color name="red">#c41616</color>
+    <color name="texto">#080808 </color>
+    <color name="view">#FF12BFFD</color>
+    <color name="actualizar">#086102</color>
+</resources>

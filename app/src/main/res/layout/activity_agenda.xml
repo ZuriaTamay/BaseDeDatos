@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/escenarios"
+    android:background="#dfdfdf"
+    tools:context="AgendaFragment">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_agenda" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <android.support.design.widget.FloatingActionButton
+   android:id="@+id/btn_flotante"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_margin="15sp"
+   android:src="@drawable/icono_mas"
+   app:backgroundTint="@color/colorPrimaryDark"
+   app:layout_constraintBottom_toBottomOf="parent"
+   app:layout_constraintEnd_toEndOf="parent"
+   app:layout_constraintHorizontal_bias="0.893"
+   app:layout_constraintStart_toStartOf="parent"
+   app:layout_constraintTop_toTopOf="parent"
+   app:layout_constraintVertical_bias="0.969" />
+
+        <ImageView
+            android:id="@+id/sinagendas"
+            android:layout_width="142dp"
+            android:layout_height="127dp"
+            android:src="@drawable/informe"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454"/>
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

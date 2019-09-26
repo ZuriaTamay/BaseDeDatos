@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itsfcp.isc.edu.Hourhand.SpinnerActivity">
+
+
+    <Spinner
+        android:id="@+id/sp_uni_academ"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:textColor="@color/textoblanco"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_carrera"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/boton_redondoverde" />
+
+    <Spinner
+        android:id="@+id/sp_semestre"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_grupo"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/boton_redondoverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/primero_lo_primero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto"
+        android:textColor="#062e44"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/boton3"
+        android:textColor="@color/textoblanco"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+
+    <Button
+        android:id="@+id/btnactualizardatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botonactualizar"
+        android:fontFamily="roboto"
+        android:text="@string/boton4"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+
+</android.support.constraint.ConstraintLayout>
