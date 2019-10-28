@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fondo_widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_widget_estilo1"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="9dp"
+                android:text="L"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/botones_widget_estilo1"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="9dp"
+                android:text="M"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/botones_widget_estilo1"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="9dp"
+                android:text="M"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/botones_widget_estilo1"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="9dp"
+                android:text="J"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/botones_widget_estilo1"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="9dp"
+                android:text="V"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/botones_widget_estilo1"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:text="&#x2699;&#xFE0F;"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/botones_widget_estilo1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0066FFCC"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="-5"
+            android:shadowDy="5"
+            android:shadowRadius="12"
+            android:text="LUNES"
+            android:textAlignment="center"
+            android:textColor="#FAF7F7"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:orientation="vertical"
+            android:background="@drawable/evento_widget_estilo1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:text="Desarrollo de Aplicaciones para Dispositivos Móviles"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:text="07:00 - 09:00"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="#09C"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
