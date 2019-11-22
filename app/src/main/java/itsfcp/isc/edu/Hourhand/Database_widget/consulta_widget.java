@@ -92,7 +92,7 @@ public class consulta_widget extends AppCompatActivity {
                 "INNER JOIN periods ON detalle_materias.id_periods = periods.id_periods " +
                 "where nombre = '"+dia+"' and periods.id_unidad_a = '"+ unidades +"'  group by materias.n_materia ORDER BY  Hora_inicio, hora_fin ASC  ";
 
-        Cursor cursor = db.rawQuery(Consulta, null);
+        Cursor cursor = db.rawQuery(Consulta,null);
         while (cursor.moveToNext()) {
             horarios = new horario();
             horarios.setId_horario(cursor.getInt(0));
@@ -124,7 +124,7 @@ public class consulta_widget extends AppCompatActivity {
         SQLiteDatabase db = conn.getReadableDatabase();
 
         perfil perfil = null;
-        perfillist =new ArrayList<perfil>();
+        perfillist = new ArrayList<perfil>();
         unidades unidad = null;
         unidadesperfillist = new ArrayList<unidades>();
         carreras carrera = null;
@@ -136,11 +136,10 @@ public class consulta_widget extends AppCompatActivity {
         Cursor cursor = db.rawQuery("SELECT  perfil.id_perfil,  uni_academica.id_unidad_a,  substr(n_carrera,4,4),substr(n_semestre,1,1),substr(n_grupo,2,1) FROM perfil INNER JOIN uni_academica ON perfil.id_unidad_a = uni_academica.id_unidad_a INNER JOIN carreras ON perfil.id_carrera = carreras.id_carrera INNER JOIN semestre ON perfil.id_semestre = semestre.id_semestre INNER JOIN grupo ON perfil.id_grupo = grupo.id_grupo ORDER BY id_perfil DESC", null);
         while (cursor.moveToNext()) {
             unidades = String.valueOf(cursor.getString(1));
-            carreras =String.valueOf(cursor.getString(2));
-            semestres =String.valueOf(cursor.getString(3));
-            grupos =String.valueOf(cursor.getString(4));
+            carreras = String.valueOf(cursor.getString(2));
+            semestres = String.valueOf(cursor.getString(3));
+            grupos = String.valueOf(cursor.getString(4));
         }
     }
-
 
 }
